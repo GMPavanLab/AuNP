@@ -42,6 +42,6 @@ if __name__ == "__main__":
         #elaborateDistancesAndSave(classificationFile)
 
     elaborateDistancesAndSave("referenceFrames.hdf5")
-    elaborateDistancesAndSave("/minimized.hdf5")
+    elaborateDistancesAndSave("../minimized.hdf5")
 
 # %%
