@@ -1,0 +1,8 @@
+python3 -m venv /path/to/new/venv --prompt LENS
+source /path/to/new/venv/bin/activate
+pip install --upgrade pip
+
+pip install 'cpctools @ git+https://github.com/GMPavanLab/SOAPify.git'
+
+pip install "dscribe<=1.2.2,>1.2.0"
+pip install "quippy-ase==0.9.10"
